@@ -9,6 +9,8 @@ services:
      - "6379:6379"
     tty: true
     volumes:
-      - type: bind
-        source: /dockerdata/redis
-        target: /data
+      - redis-volume:/data
+
+volumes:
+  redis-volume:
+    external: true
