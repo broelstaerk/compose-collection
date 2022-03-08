@@ -1,0 +1,14 @@
+version: '3.9'
+services:
+
+  redis:
+    image: redis:latest
+    deploy:
+      replicas: 1
+    ports:
+     - "6379:6379"
+    tty: true
+    volumes:
+      - type: bind
+        source: /dockerdata/redis
+        target: /data
