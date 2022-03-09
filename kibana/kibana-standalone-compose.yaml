@@ -1,0 +1,12 @@
+version: '3.9'
+services:
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:7.17.1
+    deploy:
+      replicas: 1
+    ports:
+     - "5601:5601"
+    tty: true
+    environment:
+      - ELASTICSEARCH.HOSTS=http://elasticsearch:9200
