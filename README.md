@@ -12,7 +12,16 @@ Accepting PR's :)
 docker swarm init
 ```
 
-# TODO
+# Repo state
+## Done
+* Elasticsearch single node in memory
+* Elasticsearch single node with dis persistence
+* Kibana stand alone
+* Kibana and elasticsearch in same compose file
+* Redis single node in memory
+* Redis single node with disk persistence
+
+## Todo
 * MSSQL standard
 * MSSQL with predefined database
 * Eventstore
