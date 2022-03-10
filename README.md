@@ -15,7 +15,7 @@ docker swarm init
 # Repo state
 ## Done
 * Elasticsearch single node in memory
-* Elasticsearch single node with dis persistence
+* Elasticsearch single node with disk persistence
 * Kibana stand alone
 * Kibana and elasticsearch in same compose file
 * Redis single node in memory
