@@ -4,7 +4,7 @@ elasticsearch-in-mem-compose.yaml contans a single elasticsearch node with no di
 
 
 ```
-docker stack deploy --compose-file elasticsearch-in-mem-compose.yaml elasticsearch-in-mem
+docker compose -f elasticsearch-in-mem-compose.yaml up -d
 ```
 
 ## elasticsearch-persistence-compose.yaml
@@ -16,8 +16,8 @@ You only need to do this once. The volume will stay there until you chose to rem
 docker volume create elasticsearch-volume
 ```
 
-### 2. Deploy stack
+### 2. Deploy
 ```
-docker stack deploy --compose-file elasticsearch-persistent-compose.yaml elasticsearch-persistent
+docker compose -f elasticsearch-persistent-compose.yaml down
 ```
 
