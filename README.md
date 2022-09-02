@@ -15,10 +15,7 @@ docker compose -f your-compose-file.yaml down
 
 Accepting PR's :)
 
-## To get started with docker swarm
-```
-docker swarm init
-```
+
 
 # Repo state
 ## Done
