@@ -3,7 +3,7 @@ Collection of useful (and working) docker compose files.
 
 Currently targeting docker compose v.3.9
 
-There are multiple ways to deploy from a compose file. Exmaples are provided running docker in non-swarm mode. Feel free to use any method you see fit.
+There are multiple ways to deploy from a compose file. Examples are provided running Docker in non-swarm mode. Feel free to use any method you see fit.
 To deploy from a compose file, use this syntax from the command line.
 ```
 docker compose -f your-compose-file.yaml up -d
