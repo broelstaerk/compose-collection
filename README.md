@@ -25,9 +25,10 @@ Accepting PR's :)
 * Kibana and elasticsearch in same compose file
 * Redis single node in memory
 * Redis single node with disk persistence
+* MSSQL standard
+* MSSQL express
 
 ## Todo
-* MSSQL standard
 * MSSQL with predefined database
 * Eventstore
 * Kafka
