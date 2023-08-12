@@ -27,11 +27,11 @@ Accepting PR's :)
 * Redis single node with disk persistence
 * MSSQL standard
 * MSSQL express
+* Kafka stack
 
 ## Todo
 * MSSQL with predefined database
 * Eventstore
-* Kafka
 * RabbitMQ
 * Nats / Nats-Streaming
 * PostgreSQL
