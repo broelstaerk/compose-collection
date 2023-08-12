@@ -28,12 +28,13 @@ Accepting PR's :)
 * MSSQL standard
 * MSSQL express
 * Kafka stack
+* PostgresSQL + pgadmin in memory
+* PostgresSQL + pgadmin with disk persistence
 
 ## Todo
 * MSSQL with predefined database
 * Eventstore
 * RabbitMQ
 * Nats / Nats-Streaming
-* PostgreSQL
 * FluentD
 

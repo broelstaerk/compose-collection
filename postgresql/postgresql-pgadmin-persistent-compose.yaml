@@ -1,0 +1,31 @@
+version: "3.9"
+services:
+  postgres:
+    image: postgres:latest
+    deploy:
+      replicas: 1
+    restart: always
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: defaultdb
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-volume:/var/lib/postgresql/data
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@admin.com
+      PGADMIN_DEFAULT_PASSWORD: pgadminpwd
+    ports:
+      - "5959:80"
+    volumes:
+      - pgadmin-volume:/var/lib/pgadmin
+
+volumes:
+  postgres-volume:
+    external: true
+  pgadmin-volume:
+    external: true
