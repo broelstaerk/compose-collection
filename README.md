@@ -30,11 +30,11 @@ Accepting PR's :)
 * Kafka stack
 * PostgresSQL + pgadmin in memory
 * PostgresSQL + pgadmin with disk persistence
+* Nats in-mem single node
 
 ## Todo
 * MSSQL with predefined database
 * Eventstore
 * RabbitMQ
-* Nats / Nats-Streaming
 * FluentD
 
