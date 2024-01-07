@@ -1,0 +1,18 @@
+version: "3.9"
+services:
+  nats:
+    image: docker.io/nats:2.10.4
+    ports:
+      - "4222:4222"
+      - "8222:8222"
+    volumes:
+      - nats:/data
+    command:
+      - "--debug"
+      - "--http_port=8222"
+      - "--js"
+      - "--store_dir=/data"
+
+volumes:
+  nats:
+    external: true
