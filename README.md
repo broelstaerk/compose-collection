@@ -30,7 +30,8 @@ Accepting PR's :)
 * Kafka stack
 * PostgresSQL + pgadmin in memory
 * PostgresSQL + pgadmin with disk persistence
-* Nats in-mem single node
+* Nats single node in-memory
+* Nats single node with disk persistence
 
 ## Todo
 * MSSQL with predefined database
