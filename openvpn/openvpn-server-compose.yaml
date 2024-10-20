@@ -1,17 +1,18 @@
 version: "3.9"
-
 services:
   openvpn-server:
     image: openvpn/openvpn-as
     ports:
-      - "943:943"
-      - "443:443"
-      - "1194:1194/udp"
+      - 943:943
+      - 443:443
+      - 1194:1194/udp
     deploy:
       replicas: 1
     volumes:
       - openvpn-volume:/openvpn
     tty: true
+    cap_add:
+      - NET_ADMIN
 
 volumes:
   openvpn-volume:
