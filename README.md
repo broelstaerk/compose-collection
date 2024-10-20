@@ -32,6 +32,7 @@ Accepting PR's :)
 * PostgresSQL + pgadmin with disk persistence
 * Nats single node in-memory
 * Nats single node with disk persistence
+* OpenVpn server
 
 ## Todo
 * MSSQL with predefined database
